@@ -1,0 +1,41 @@
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* flex-grow: 1; */
+    gap: 10px;
+}
+
+.galerie img {
+    max-width: 30vw;
+}
+
+/*
+    contact
+*/
+
+.geolocalisation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.geolocalisation .googlemap { 
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*
+    VIP
+*/
+
+.slider  {
+
+    width: 50vw;
+    margin: 0 auto;
+    border: 2px solid grey;
+}
+
+#slider-image {
+    width: 100%;
+}
